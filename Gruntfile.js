@@ -27,8 +27,7 @@ module.exports = function(grunt) {
       livereload: true,
       },
       html: {
-        files: ['src/index.html'],
-        tasks: ['htmlhint']
+        files: ['src/index.html']
       },
       css: {
         files: [
